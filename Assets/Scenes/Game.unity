@@ -386,6 +386,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39dcdaceb25a987468f91ac8dde772d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basePlatform: {fileID: 7360924062403062327, guid: 93eeb1c29ccf02644b53a2f3a05abe89, type: 3}
+  coinsPrefab: {fileID: 5293387069163738835, guid: 2da9ea9ad3b9cdb418ed857b1c81415f, type: 3}
+  obstaclesPrefab: {fileID: 3627698952462905868, guid: 567d24b947da61a44be4c29669af5b7b, type: 3}
+  levelGenerator: {fileID: 1856500374}
+  player: {fileID: 1968115520}
 --- !u!4 &363656959
 Transform:
   m_ObjectHideFlags: 0
@@ -2406,9 +2411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fa465f31ed11949b0bc505c7b13fbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poolManager: {fileID: 363656958}
   basePlatform: {fileID: 1245280232}
-  coinsPrefab: {fileID: 1049106907192145114, guid: 2da9ea9ad3b9cdb418ed857b1c81415f, type: 3}
-  obstaclesPrefab: {fileID: 5749612848744915572, guid: 567d24b947da61a44be4c29669af5b7b, type: 3}
   player: {fileID: 1968115520}
   initialSpawnCount: 5
   coinDataPoints: {fileID: 11400000, guid: d4fb6ab77b0c06342a820cbb65aed252, type: 2}

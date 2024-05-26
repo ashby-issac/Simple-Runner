@@ -8,7 +8,7 @@ public class Obstacle : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
             // disable the camera
             Camera.main.GetComponent<FollowPlayer>().enabled = false;
         }

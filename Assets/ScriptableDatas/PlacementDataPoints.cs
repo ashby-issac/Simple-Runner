@@ -18,7 +18,9 @@ public class PlacementDataPoints : ScriptableObject
     [Header("All Coins Data")]
     [SerializeField] private PlacementsData[] placementsData;
 
-    private int dataIndex;
+    [SerializeField] private string dataContainerName;
+
+    private int dataIndex = 0;
 
     public PlacementsData GetDataPoints(ref int dataPointIndex)
     {
@@ -32,6 +34,7 @@ public class PlacementDataPoints : ScriptableObject
             dataIndex = dataPointIndex;
         }
 
-        return placementsData[dataIndex];
+        //Debug.LogError($":: DataIndex {dataContainerName}: {dataIndex}");
+        return placementsData[0];
     }
 }

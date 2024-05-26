@@ -138,3 +138,4 @@ MonoBehaviour:
     - {x: 2.6, y: 0.5, z: 16}
     - {x: 2.6, y: 0.5, z: 20}
     - {x: 2.6, y: 0.5, z: 24}
+  dataContainerName: Coins

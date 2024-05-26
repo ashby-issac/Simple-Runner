@@ -94,3 +94,4 @@ MonoBehaviour:
     - {x: 2.6, y: 2, z: -16}
     - {x: 2.6, y: 2, z: 0}
     - {x: 2.6, y: 0, z: 8}
+  dataContainerName: Obstacles
