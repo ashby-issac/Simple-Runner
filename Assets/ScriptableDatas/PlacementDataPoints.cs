@@ -35,6 +35,6 @@ public class PlacementDataPoints : ScriptableObject
         }
 
         //Debug.LogError($":: DataIndex {dataContainerName}: {dataIndex}");
-        return placementsData[0];
+        return placementsData[dataIndex];
     }
 }

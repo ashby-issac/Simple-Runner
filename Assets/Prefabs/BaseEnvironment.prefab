@@ -183,7 +183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7005770162312881665
 Transform:
   m_ObjectHideFlags: 0
@@ -267,8 +267,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b56967d509583284081250a3c77f1e46, type: 3}
       propertyPath: m_Name
-      value: Runner_Assignment_Chunk_01
+      value: EnvironmentBase
       objectReference: {fileID: 0}
+    - target: {fileID: 2017850819901562811, guid: b56967d509583284081250a3c77f1e46, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32283c134f58cf447a3fe8d76da6f548, type: 2}
     - target: {fileID: 8273366921904961171, guid: b56967d509583284081250a3c77f1e46, type: 3}
       propertyPath: m_Layer
       value: 6

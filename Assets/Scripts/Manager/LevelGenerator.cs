@@ -40,7 +40,6 @@ public class LevelGenerator : MonoBehaviour
 
     private void UpdateObstacles(BasePlatform spawnedPlatform)
     {
-        //return;
         PlacementsData placementsData = obstacleDataPoints.GetDataPoints(ref dataPointIndex);
 
         foreach (var dataPoint in placementsData.leftDataPoints)
@@ -59,7 +58,6 @@ public class LevelGenerator : MonoBehaviour
 
     private void UpdateCoins(BasePlatform spawnedPlatform)
     {
-        //return;
         PlacementsData placementsData = coinDataPoints.GetDataPoints(ref dataPointIndex);
 
         foreach (var dataPoint in placementsData.leftDataPoints)
